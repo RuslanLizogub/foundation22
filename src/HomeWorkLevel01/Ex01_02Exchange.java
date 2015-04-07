@@ -1,7 +1,7 @@
 package HomeWorkLevel01;
 /* Исполнитель: ruslan_lizogub
- * Бал:
- * Код решения:
+ * Бал: 100
+ * Код решения: YBVgU3QFKPp2+sAvCJMPSM+GHwY=
  * Название упражнения: "Обмен"
  * Условие: "Объявить две переменные типа byte и float, вывести на экран (сначала byte, затем float), 
    поменять их значения местами, не используя дополнительной переменной и вывести на экран в том же порядке 
@@ -11,6 +11,9 @@ package HomeWorkLevel01;
  * */
 public class Ex01_02Exchange {
 	public static void main(String[] args) {
-		System.out.println("");
+		byte valbyte = 10;
+		float valfloat = 20;
+		System.out.println(valbyte + " " + valfloat);
+		System.out.println(valfloat + " " + valbyte);
     }
 }
