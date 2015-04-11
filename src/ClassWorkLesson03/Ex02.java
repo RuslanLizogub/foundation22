@@ -6,6 +6,18 @@ public class Ex02 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int val = scan.nextInt();
+		
+		if (!scan.hasNextInt()){
+			System.out.print("Вы не то вводите:)");
+			return;
+		}
+		
+		final int LENGTH = scan.nextInt();
+		if(LENGTH < 1){
+			System.out.print("Вы не то вводите:)");
+			return;
+		}
+		
 		int[] test = new int [val];
 		int lenght = test.length;
 		System.out.print("[");
