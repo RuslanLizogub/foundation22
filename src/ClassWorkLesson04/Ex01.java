@@ -12,8 +12,8 @@ public class Ex01 {
 		
     }
 	
-	public static int add(int first, int second) {
-		int sum = first + second;
+	public static int add(int f, int s) {
+		int sum = f + s;
 		return sum;
     }
 	
