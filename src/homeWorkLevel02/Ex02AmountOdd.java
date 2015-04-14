@@ -10,5 +10,7 @@ package homeWorkLevel02;
    4"
  * */
 public class Ex02AmountOdd {
-
+	public static void main(String[] args) {
+		
+    }
 }
