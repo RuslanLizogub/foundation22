@@ -12,7 +12,7 @@ import java.util.Scanner;
    calcVectorAvg(int[] vector); // [1234567]
    14
  * */
-public class Ex3Average {
+public class Ex03Average {
 	public static void main(String[] args) {
 		int[] vector = {1,5};
 		
