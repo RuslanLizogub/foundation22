@@ -21,13 +21,14 @@ public class Ex06StairwayToTheStars {
     }
 	
 	public static void drawStair(int stars){
+		if(stars <= 0){
+			System.out.println("Неверное значение высоты");
+			return;
+		}
 		String star = "*";
-		String[] drawStarArray = new String[stars];
 		for (int i = 0; i < stars; i++){
-			drawStarArray[i] = star;
-			for (int a = 0; a < stars; a++){
-				System.out.print(drawStarArray[a]);
-			}
+			System.out.println(star);
+			star = star + "*";
 		}
 	}
 }
