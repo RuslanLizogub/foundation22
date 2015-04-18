@@ -1,4 +1,4 @@
-package ClassWorkLesson02;
+package clas.work.lesson02;
 import java.util.Scanner;
 
 public class Ex01 {

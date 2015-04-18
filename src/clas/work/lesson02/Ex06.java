@@ -1,4 +1,4 @@
-package ClassWorkLesson02;
+package clas.work.lesson02;
 
 public class Ex06 {
 	public static void main(String[] args){
