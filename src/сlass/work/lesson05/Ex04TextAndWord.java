@@ -20,3 +20,4 @@ public class Ex04TextAndWord {
 		System.out.println(counterWord);
     }
 }
+//доделать, задание в тетради
