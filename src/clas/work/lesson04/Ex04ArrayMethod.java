@@ -1,4 +1,4 @@
-package ClassWorkLesson04;
+package clas.work.lesson04;
 
 import java.util.Arrays;
 import java.util.Scanner;

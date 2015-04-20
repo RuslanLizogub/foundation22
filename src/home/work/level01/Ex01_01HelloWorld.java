@@ -1,9 +1,9 @@
-package HomeWorkLevel01;
-/* Исполнитель: ruslan_lizogub
- * Бал: 100
- * Код решения: hYoPaf6wJUeV8zbP/Z7QGJWLBKA=
- * Название упражнения: "Hello World"
- * Условие: "Написать приложение, выводящее на экран сообщение "Hello world"."
+package home.work.level01;
+/* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: ruslan_lizogub
+ * пїЅпїЅпїЅ: 100
+ * пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: hYoPaf6wJUeV8zbP/Z7QGJWLBKA=
+ * пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: "Hello World"
+ * пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ "Hello world"."
  * */
 public class Ex01_01HelloWorld {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package homeWorkLevel02;
+package home.work.level02;
 
 import java.util.Arrays;
 /* Исполнитель: ruslan_lizogub
