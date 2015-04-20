@@ -1,4 +1,4 @@
-package сlass.work.lesson05;
+package сlas.work.lesson05;
 
 public class Ex04TextAndWord {
 	public static void main(String[] args) throws Exception {

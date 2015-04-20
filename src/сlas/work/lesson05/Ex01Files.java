@@ -1,4 +1,4 @@
-package сlass.work.lesson05;
+package сlas.work.lesson05;
 
 import java.io.File;
 import java.util.Scanner;
