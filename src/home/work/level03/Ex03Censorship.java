@@ -39,8 +39,8 @@ public class Ex03Censorship {
 		  // создаем массив не цезурных слов из файла
 		  Scanner obsceneScan = new Scanner(new File("obscene.txt"));
 		  ArrayList<String> obsceneFile = new ArrayList<String>();
-		  while (obsceneScan.hasNext()) {
-			  obsceneFile.add (obsceneScan.next());
+		  while (obsceneScan.hasNextLine()) {
+			  obsceneFile.add (obsceneScan.nextLine());
 		  }
 		  obsceneScan.close();
 		  System.out.println(obsceneFile);
