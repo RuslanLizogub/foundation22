@@ -6,9 +6,9 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 /*
- *  Бал: 
+ *  Бал: 100
  *  Исполнитель: ruslan_lizogub
- *  Код решения: 
+ *  Код решения: 9bT37klvR9vbhS3YNXUzF+2rqhU=
  *  Задание: Цензура
  *  Пользователь вводит имя текстового файла (text.txt), заменить все "нецензурные слова" в файле на [вырезано цензурой],
  	результат записать в тот же файл. "нецензурные слова" находятся в файле obscene.txt, каждое в отдельной строке.
@@ -33,6 +33,7 @@ public class Ex03Censorship {
 			  textFile.add (fileScan.next());
 		  }
 		  fileScan.close();
+		  int textFileSize = textFile.size();
 		  System.out.println(textFile);
 		  
 		  // создаем массив не цезурных слов из файла
@@ -58,13 +59,13 @@ public class Ex03Censorship {
 		  
 		  //разбиваем по индексам
 		  String[] stringArrayWordsTextFile = textFileString.split("[ ,.]+");
-		  String[] stringArrayWordsobsceneFile = obsceneFileString.split("[ ,]+");
+		  String[] stringArrayWordsobsceneFile = obsceneFileString.split("[ ,.]+");
 		  
 		  //сравнить строки по условию задачи
 		  int lengthStringArrayWordsTextFile = stringArrayWordsTextFile.length;
 		  int lengthStringArrayWordsobsceneFile = stringArrayWordsobsceneFile.length;
 		  
-		  for (int i = 0; i < lengthStringArrayWordsTextFile; i++){
+		  for (int i = 1; i < lengthStringArrayWordsTextFile; i++){
 			  String buferTextFile = stringArrayWordsTextFile[i];
 			 for(int g = 0; g < lengthStringArrayWordsobsceneFile; g++){
 				 String buferObsceneFile = stringArrayWordsobsceneFile[g];
@@ -74,5 +75,19 @@ public class Ex03Censorship {
 			 }
 		  }
 		  System.out.println(textFile);
+		  
+		  //помещяем содержимое массива в стринг
+		  int lengthArray = textFile.size();
+		  String result = "";
+		  for(int i = 0; i < lengthArray; i++){
+			  result = result + " " + textFile.get(i);
+		  }
+		  
+		  //теперь вернуть все в файл
+		  FileWriter fw = new FileWriter(fileName);
+		  //for (int i = 0; i < textFileSize; i++) {
+			  fw.write(result);
+		  //}
+		  fw.close();
 	 }
 }
